@@ -1,0 +1,28 @@
+#backgroundColor {
+    background-color: orange;
+    padding: 20px;
+    opacity: .5;
+}
+
+#backImg {
+    background-image: url('./image.png');
+    padding: 150px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+}
+
+#margin {
+    width: 400px;
+    height: 400px;
+    background-color: lightcoral;
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+#margin h1 {
+    text-align: center;
+    line-height: 400px;
+}
