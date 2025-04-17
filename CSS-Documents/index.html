@@ -5,10 +5,114 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Study April Month </title>
+    <link rel="stylesheet" href="formStyle.css">
+
+
 </head>
 
 <body>
-    <h1>CSS Practice Again April Month of 2025 </h1>
+
+
+
+    <form>
+        <label for="name">নাম:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">ইমেইল:</label>
+        <input type="email" id="email" name="email" required>
+
+        <button type="submit">জমা দিন</button>
+    </form>
+
+
+    <form>
+        <label>ইমেইল:</label>
+        <input type="email" name="email" required>
+
+        <label>জন্ম তারিখ:</label>
+        <input type="date" name="birthdate">
+
+        <label>পছন্দের কালার:</label>
+        <input type="color" name="color">
+
+        <label>নাম্বার নির্বাচন করুন:</label>
+        <input type="range" min="1" max="10">
+
+        <label>আপনার ফাইল আপলোড করুন:</label>
+        <input type="file" name="file">
+
+        <button type="submit">সাবমিট</button>
+    </form>
+
+    <form>
+        <fieldset>
+            <legend>ব্যক্তিগত তথ্য</legend>
+
+            <label>নাম:</label>
+            <input type="text" name="name" required>
+
+            <label>ইমেইল:</label>
+            <input type="email" name="email" required>
+        </fieldset>
+
+        <fieldset>
+            <legend>ঠিকানা</legend>
+
+            <label>শহর:</label>
+            <input type="text" name="city" required>
+
+            <label>ডাক কোড:</label>
+            <input type="text" name="postcode" required>
+        </fieldset>
+
+        <button type="submit">সাবমিট</button>
+    </form>
+
+
+    <form>
+        <fieldset>
+            <legend>ব্যক্তিগত তথ্য</legend>
+
+            <label>নাম:</label>
+            <input type="text" name="name" required>
+
+            <label>ইমেইল:</label>
+            <input type="email" name="email" required>
+        </fieldset>
+
+        <fieldset>
+            <legend>ঠিকানা</legend>
+
+            <label>শহর:</label>
+            <input type="text" name="city" required>
+
+            <label>ডাক কোড:</label>
+            <input type="text" name="postcode" required>
+        </fieldset>
+
+        <button type="submit">সাবমিট</button>
+    </form>
+    <button style="background-color: blue; color: white; padding: 10px 20px;">বিশেষ বাটন</button>
+
+
+    <select name="language">
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="javascript">JavaScript</option>
+    </select>
+
+
+
+    <select name="language">
+        <optgroup label="Markup Languages">
+            <option value="html">HTML</option>
+            <option value="xml">XML</option>
+        </optgroup>
+        <optgroup label="Programming Languages">
+            <option value="javascript">JavaScript</option>
+            <option value="python">Python</option>
+        </optgroup>
+    </select>
 
 </body>
 
