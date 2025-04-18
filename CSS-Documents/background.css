@@ -25,4 +25,20 @@
 #margin h1 {
     text-align: center;
     line-height: 400px;
+    font-family: "Noto Sans JP", sans-serif;
+    font-variant: small-caps;
+}
+
+#childElement>p {
+    border: 2px solid red;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#childElement+p {
+    background-color: orange;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
 }
